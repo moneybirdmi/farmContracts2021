@@ -1,0 +1,8 @@
+Developer workbreak down:
+
+
+1. locking period (est time to complete: 3 to 7hrs)
+
+2. 12% apr (est time to complete: 2 to 4hrs)
+
+3. UI (may take more time than step 1, 2) (est time to complete: 4 to 8hrs)

@@ -1,0 +1,192 @@
+alavi address 0x0319530a30C51a8fdd701E353a1196123D711FeD
+lP 0x0B4BB28204dbb351790667fE48d436f4975255E3
+2_deploy_contracts.js
+=====================
+
+   Replacing 'DIPI'
+   ----------------
+   > transaction hash:    0xae052347c6bbce5916dba23de26b18df8c647cc1cb90e905904e87432fbb3db3
+   > Blocks: 2            Seconds: 9
+   > contract address:    0x9F219fd281Ad5457078E51a9bD4bF7402E372A1a
+   > block number:        7076215
+   > block timestamp:     1615713705
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             3.987714678196436935
+   > gas used:            1665903 (0x196b6f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03331806 ETH
+
+
+   Replacing 'GDIPI'
+   -----------------
+   > transaction hash:    0xe2c7a9536435943080d58273fe6d8cd60594e8391f494022f19b05f78300ad75
+   > Blocks: 3            Seconds: 9
+   > contract address:    0xFD70Df39Dc4D11036485246c577d12B89530A453
+   > block number:        7076223
+   > block timestamp:     1615713729
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             3.948223038196436935
+   > gas used:            1906884 (0x1d18c4)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03813768 ETH
+
+
+   Replacing 'MasterChef'
+   ----------------------
+   > transaction hash:    0x4bfcae688ca3edea4901cec154d282c3febb2d84cb84049b0991618b45d48948
+   > Blocks: 3            Seconds: 9
+   > contract address:    0xA47D87EFCAb2b0726207B04308B750152989891e
+   > block number:        7076228
+   > block timestamp:     1615713744
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             3.905506278196436935
+   > gas used:            2135838 (0x20971e)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04271676 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+
+   Deploying 'Multicall'
+   ---------------------
+   > transaction hash:    0x6763d4c7edfd8a09cd8fb72af711358d6ea4fcb169ecbd14ef838a68fc761782
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x163c8af7fAF5926894064Cc8F1018BC29919b817
+   > block number:        7076397
+   > block timestamp:     1615714251
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             3.894696758196436935
+   > gas used:            341758 (0x536fe)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00683516 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.11675622 ETH
+
+
+Done in 105.37s.
+PS C:\DevNew\DipiSwap\farmContracts>
+PS C:\DevNew\DipiSwap\farmContracts> truffle run verify DIPI GDIPI MasterChef Multicall --network bscTestnet
+Verifying DIPI
+Pass - Verified: https://testnet.bscscan.com/address/0x9F219fd281Ad5457078E51a9bD4bF7402E372A1a#contracts
+Verifying GDIPI
+Pass - Verified: https://testnet.bscscan.com/address/0xFD70Df39Dc4D11036485246c577d12B89530A453#contracts
+Verifying MasterChef
+Pass - Verified: https://testnet.bscscan.com/address/0xA47D87EFCAb2b0726207B04308B750152989891e#contracts
+Successfully verified 3 contract(s).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+2_deploy_contracts.js
+=====================
+
+   Deploying 'DIPI'
+   ----------------
+   > transaction hash:    0x3381ca18c710a18f8416287bf5085200c216a5ce71d5636f9f8502901b574209
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x44B43793b350E9d4c05D16926Fe221FEBe14DDE7
+   > block number:        6942737
+   > block timestamp:     1615310568
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.278181678196436935
+   > gas used:            1665903 (0x196b6f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03331806 ETH
+
+
+   Deploying 'GDIPI'
+   -----------------
+   > transaction hash:    0xb1b3675f5b411a6c04c5bf35bffa8f6b7cf2d02e69b496eb626a1eab131de5d1
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x3Cb95ead25Eeb983A588A8eBa35FE556f4cC6f08
+   > block number:        6942745
+   > block timestamp:     1615310592
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.238690038196436935
+   > gas used:            1906884 (0x1d18c4)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03813768 ETH
+
+
+   Deploying 'MasterChef'
+   ----------------------
+   > transaction hash:    0x65b033bc3de5b5626c63b4ea66636273a64afd3701c0a7c67d9f1a40c01d8b75
+   > Blocks: 3            Seconds: 9
+   > contract address:    0xA35E8CAFF743a2bE682882089C67245208032EfF
+   > block number:        6942750
+   > block timestamp:     1615310607
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.195973278196436935
+   > gas used:            2135838 (0x20971e)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04271676 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   > Total cost:           0.1141725 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.11675622 ETH
+
+truffle run verify DIPI GDIPI MasterChef  --network bscTestnet
+
+
+Done in 101.26s.
+PS C:\DevNew\Pancake\pancake-farm> truffle run verify DIPI GDIPI MasterChef --network bscTestnet
+Verifying DIPI
+Pass - Verified: https://testnet.bscscan.com/address/0x44B43793b350E9d4c05D16926Fe221FEBe14DDE7#contracts
+Verifying GDIPI
+Pass - Verified: https://testnet.bscscan.com/address/0x3Cb95ead25Eeb983A588A8eBa35FE556f4cC6f08#contracts
+Verifying MasterChef
+Pass - Verified: https://testnet.bscscan.com/address/0xA35E8CAFF743a2bE682882089C67245208032EfF#contracts
+Successfully verified 3 contract(s).
